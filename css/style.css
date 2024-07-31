@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Poppins:wght@300;400;600;700&display=swap');
+
+body{
+    background-color: #F6F0E4;
+    margin: 0%;
+    font-family: Poppins, sans-serif;
+}
+
+.containerGreen{
+    height: 90vh;
+    width: 215.8vh;
+    background-color: #275A53;
+    position: relative;
+    margin-bottom: 0%;
+}
+
+.downloadCV{
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    z-index: 0;
+    right: 8vh;
+    top: 8vh;
+}
+
+.textCV{
+    text-align: center;
+    position: absolute;
+    width: 25vh;
+    height: 4vh;
+    color: #e1b45b;
+    font-size: smaller;
+    right: 0.5vh;
+    top: 3%;
+
+}
+
+.wave{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    margin-top: 33%;
+}
+
+.card{
+    width: 45vh;
+    height: 62vh;
+    border-radius: 5%;
+    background-color: #357A71;
+    position: absolute;
+    left: 8%;
+    margin-top: 2%;
+}
+.profile{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 38vh;
+    height: 38vh;
+    border-radius: 50%;
+    top: 3%;
+    left: 8%;
+    border: rgba(247, 199, 101, 35%) 5px solid;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 2vh;
+    left: 6vh;
+    gap: 1.3vh;
+}
+
+p{
+    padding: 0%;
+    margin: 0%;
+}
+.contactInfo{
+    font-size: small;
+    font-weight: 600;
+    color: #e1b45b;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 2.2vh;
+    left: 13vh;
+    gap: 2.9vh;
+}
+
+.iconContact{
+    height: 4.7vh;
+    width: 4.7vh;
+}
+
+.description{
+    text-align: center;
+    position: absolute;
+    top: 6%;
+    right: 13%;
+
+}
+
+.rol{
+    color: #bd9a54;
+}
+
+.stack{
+    color: rgb(239, 239, 239, 75%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 5vh;
+}
+
+.bio{
+    width: 100vh;
+    color: rgb(239, 239, 239, 75%);
+}
+
+.name{
+    padding: 0%;
+    margin: 0%;
+    background: transparent;
+    font-size: 5vh;
+    letter-spacing: 2vh;
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1.3px rgba(209, 168, 86, 1);
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 2vh;
+    align-content: center;
+    align-items: center;
+    bottom: 31%;
+    left: 55%;
+}
+
+.gmail{
+    width: 5vh;
+    height: 5vh;
+}
+
+.linkedin, .whatsapp{
+    width: 8vh;
+    height: 8vh;
+    
+}
+
+.telegram, .github{
+    width: 6vh;
+    height: 6vh;
+}
+
+.containerYellow{
+    height: 100vh;
+    width: 215.8vh;
+    background-color: #F7C765;
+    position: relative;
+    padding: 0%;
+    display: flex;
+    position: relative;
+}
+
+.data{
+    align-items: center;
+    width: 50vh;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    position: relative;
+    left: 4%;
+    top: 4%;
+}
+
+.languages{
+    margin: 0%;
+    padding: 0%;
+    font-size: 2.2vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 35vh;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    background-color: #f4e0ae;
+    border-radius: 10%;
+}
+
+.education{
+    margin: 0%;
+    padding: 0%;
+    font-size: 2.2vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 45vh;
+    height: 33vh;
+    text-align: center;
+    position: relative;
+    background-color: #f4e0ae;
+    border-radius: 9%;
+}
+
+.tech{
+    margin: 0;
+    padding: 0%;
+    font-size: 2.2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 45vh;
+    height: 32vh;
+    text-align: left;
+    position: relative;
+    background-color: #f4e0ae;
+    border-radius: 9%;
+}
+
+.qualify{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    position: absolute;
+    right: 20%;
+    bottom: 11%;
+}
+
+.techQualify{
+    width: 12vh;
+    height: 2.7vh;
+}
+
+.title{
+    font-weight: 900;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    left: 5%;
+}
+
+.projects{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+
+.work{
+    margin-top: 0%;
+    background: transparent;
+    font-size: 4.5vh;
+    letter-spacing: 1.5vh;
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    color: #357A71;
+    -webkit-text-stroke: 1.4px #275A53;
+    }
+
+.projects{
+    position: relative;
+    width: 150vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vh;
+}
+.conjuntosCard{
+    height: 40vh;
+    width: 38vh;
+    display: flex;
+    position: relative;
+    background-color: #f4e0ae;
+    justify-content: center;
+    margin-top: 1vh;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.imgConjuntos{
+    position: absolute;
+    width: 30vh;
+    height:30vh;
+    top: 4%;
+    border-radius: 10%;
+}
+
+.conjuntosCard p{
+    position: absolute;
+    bottom: 1.3vh;
+    font-size: small;
+    font-weight: 600;
+}
+
+.devolucionesCard{
+    height: 40vh;
+    width: 58vh;
+    display: flex;
+    position: relative;
+    background-color: #f4e0ae;
+    justify-content: center;
+    margin-top: 1vh;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.imgDevoluciones{
+    position: absolute;
+    width: 50vh;
+    height:30vh;
+    top: 4%;
+    border-radius: 10%;
+}
+
+.devolucionesCard p{
+    position: absolute;
+    bottom: 2.5vh;
+    font-size: small;
+    font-weight: 600;
+}
+.DVDCard{
+    height: 40vh;
+    width: 48vh;
+    display: flex;
+    position: relative;
+    background-color: #f4e0ae;
+    justify-content: center;
+    margin-top: 1vh;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.imgDVD{
+    position: absolute;
+    width: 41vh;
+    height:30vh;
+    top: 4%;
+    border-radius: 10%;
+}
+
+.DVDCard p{
+    position: absolute;
+    bottom: 1.3vh;
+    font-size: small;
+    font-weight: 600;
+}
+
+.odontologiaCard{
+    height: 36vh;
+    width: 68vh;
+    display: flex;
+    position: relative;
+    background-color: #f4e0ae;
+    justify-content: center;
+    margin-top: 1vh;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.imgOdontologia{
+    position: absolute;
+    width: 60vh;
+    height:28vh;
+    top: 5%;
+    border-radius: 10%;
+}
+
+.odontologiaCard p{
+    position: absolute;
+    bottom: 1.3vh;
+    font-size: small;
+    font-weight: 600;
+}
+
+.imagenologiaCard{
+    height: 36vh;
+    width: 68vh;
+    display: flex;
+    position: relative;
+    background-color: #f4e0ae;
+    justify-content: center;
+    margin-top: 1vh;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.imgImagenologia{
+    position: absolute;
+    width: 60vh;
+    height:28vh;
+    top: 5%;
+    border-radius: 10%;
+}
+
+.imagenologiaCard p{
+    position: absolute;
+    bottom: 1.3vh;
+    font-size: small;
+    font-weight: 600;
+}
+
+.card:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0.5rem 0.5rem 0.6rem #18463f;
+}
+
+.profile:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0.5rem 0.5rem 0.6rem #18463f;
+    border-radius: 50%;
+}
+
+.info:hover, .textCV:hover{
+    transition: color 0.4s ease;
+    color: #f4e0ae;
+
+}
+
+.name:hover{
+    transition: -webkit-text-stroke 0.5s ease;
+    -webkit-text-stroke: 1.3px rgba(84, 173, 155, 1);
+}
+
+.rol:hover{
+    transition: color 0.4s ease;
+    color: #5daba0;
+}
+
+.languages:hover, .education:hover, .tech:hover, .conjuntosCard:hover, 
+.devolucionesCard:hover, .DVDCard:hover, .odontologiaCard:hover, .imagenologiaCard:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0.5rem 0.5rem 0.6rem #dfab43;
+    transition: background-color 0.3 ease;
+    background-color: #efd592;
+}
+
+.downloadCV:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0.5rem 0.5rem 0.6rem #144740;
+    border-radius: 50%;
+}
+
+.up:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0.5rem 0.5rem 0.6rem #bd8f35;
+    border-radius: 50%;
+}
+
+.gmail:hover, .linkedin:hover, .whatsapp:hover, .github:hover, .telegram:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0.5rem 0.5rem 0.6rem #144740;
+    border-radius: 50%;
+}
+
+.stack p:hover, .bio:hover{
+    transition: color 0.4s ease;
+    color: white;
+}
+
+
+.work:hover{
+    transition: color 0.5s ease;
+    color: #f4e0ae;
+}
+
+.up{
+    height: 8vh;
+    width: 8vh;
+    position: fixed;
+    right: 8vh;
+    bottom: 2vh;
+}
+
+
